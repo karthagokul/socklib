@@ -24,16 +24,25 @@
 
 class TcpServerSocket:public Socket
 {
-
   public:
     TcpServerSocket();
     ~TcpServerSocket();
-    virtual bool init(const Connection &aHost);
-    virtual bool start();
-    virtual bool stop()
-    {
-      //TODO
-    }
+    /**
+     * @brief init
+     * @param aHost
+     * @return
+     */
+    bool init(const Connection &aHost);
+    /**
+     * @brief start
+     * @return
+     */
+    bool start();
+    /**
+     * @brief stop
+     * @return
+     */
+    bool stop();
 };
 
 #endif // TCPSOCKETSERVER_H

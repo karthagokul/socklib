@@ -43,6 +43,9 @@ enum Type
   Udp
 };
 
+/**
+ * @brief The Socket class One class for all socket needs, Could have inhertied server and client socket,may be later
+ */
 class Socket
 {
   protected:

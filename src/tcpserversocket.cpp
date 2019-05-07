@@ -49,3 +49,9 @@ bool  TcpServerSocket::start()
   LOG("");
   return Socket::listen();
 }
+
+bool TcpServerSocket::stop()
+{
+  LOG("TODO");
+  return true;
+}

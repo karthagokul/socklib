@@ -26,8 +26,8 @@ class TcpClientSocket:public Socket
 {
   public:
     TcpClientSocket();
-    virtual bool connect(const Connection &host);
-    virtual bool disconnect();
+    bool connect(const Connection &host);
+    bool disconnect();
     ~TcpClientSocket();
 };
 
