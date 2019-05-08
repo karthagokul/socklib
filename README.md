@@ -1,6 +1,6 @@
 ## socklib
 
-The socklib is a c++ socket library provides a high level abstraction on the platform specific api (TODO)
+The socklib is a c++ socket library provides a high level abstraction on the platform specific api (TODO : Documentation)
 
 ### installation
 
