@@ -4,12 +4,16 @@ You can use the [editor on GitHub](https://github.com/karthagokul/socklib/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Introduction
+The socklib is a c++ socket library provides a high level abstraction on the platform specific api (TODO)
 
 ```markdown
-Syntax highlighted code block
+TCPServer socket;
+Connection c;
+c.ipAddress="127.0.0.1"
+c.port=2020
+socket.sethost(c);
+socket.start(); //to run a socket server
 
 # Header 1
 ## Header 2
