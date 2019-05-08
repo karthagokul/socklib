@@ -4,7 +4,8 @@ The socklib is a c++ socket library provides a high level abstraction on the pla
 
 ### installation
 
-```cmake ../ && make
+```markdown
+cmake ../ && make
 
 ### Usage
 
